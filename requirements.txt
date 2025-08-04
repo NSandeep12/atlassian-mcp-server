@@ -1,0 +1,33 @@
+# Core MCP dependencies
+mcp>=1.0.0
+
+# Jira integration
+jira>=3.5.0
+requests>=2.31.0
+
+# Bitbucket/Git integration
+GitPython>=3.1.40
+atlassian-python-api>=3.41.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Async support
+asyncio-mqtt>=0.16.0
+
+# Logging and monitoring
+structlog>=23.2.0
+
+# Security
+cryptography>=41.0.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Production server (optional)
+uvicorn>=0.23.0
+gunicorn>=21.2.0

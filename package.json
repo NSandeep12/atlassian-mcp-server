@@ -1,0 +1,54 @@
+{
+  "name": "atlassian-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Atlassian products (Jira & Bitbucket) integration with AI assistants",
+  "main": "src/main.py",
+  "scripts": {
+    "start": "python src/main.py",
+    "dev": "python src/main.py --debug",
+    "test": "python -m pytest tests/",
+    "lint": "flake8 src/ tests/",
+    "format": "black src/ tests/",
+    "type-check": "mypy src/",
+    "setup": "./scripts/setup-dev.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/atlassian-mcp-server.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "atlassian",
+    "jira",
+    "bitbucket",
+    "ai",
+    "assistant",
+    "amazon-q",
+    "claude",
+    "python",
+    "docker"
+  ],
+  "author": {
+    "name": "Sandeep Nalam",
+    "email": "nsandeep12@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/atlassian-mcp-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/atlassian-mcp-server#readme",
+  "engines": {
+    "python": ">=3.11"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "directories": {
+    "lib": "src",
+    "test": "tests",
+    "doc": "docs"
+  }
+}
