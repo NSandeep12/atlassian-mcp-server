@@ -34,7 +34,7 @@ A powerful **Model Context Protocol (MCP) server** that integrates **Atlassian p
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/atlassian-mcp-server.git
+git clone https://github.com/NSandeep12/atlassian-mcp-server.git
 cd atlassian-mcp-server
 
 # Copy and configure environment
@@ -52,7 +52,7 @@ docker-compose ps
 
 ```bash
 # Clone and setup
-git clone https://github.com/yourusername/atlassian-mcp-server.git
+git clone https://github.com/NSandeep12/atlassian-mcp-server.git
 cd atlassian-mcp-server
 
 # Create virtual environment
