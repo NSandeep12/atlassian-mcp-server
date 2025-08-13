@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "atlassian": {
+      "command": "python3",
+      "args": ["/home/sandynal/atlassian-mcp-server/q_mcp_wrapper.py"],
+      "env": {
+        "AWS_REGION": "us-west-2",
+        "AWS_PROFILE": "AdministratorAccess-542754948868"
+      }
+    }
+  }
+}
