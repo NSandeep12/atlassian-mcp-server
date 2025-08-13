@@ -21,17 +21,22 @@ wheels/
 *.egg
 MANIFEST
 
-# Virtual Environment
+# Virtual environments
 venv/
 env/
 ENV/
 .venv/
 .env/
 
-# AWS
+# AWS Lambda
 function.zip
+package/
 *.zip
-.aws/
+
+# Environment variables
+.env
+.env.local
+.env.production
 
 # IDE
 .vscode/
@@ -57,15 +62,3 @@ logs/
 *.tmp
 *.temp
 response.json
-
-# Sensitive files
-.env
-*.pem
-*.key
-config.json
-
-# Package directory (contains dependencies)
-package/
-
-# Test outputs
-test_output/
