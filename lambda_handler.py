@@ -507,8 +507,7 @@ def lambda_handler(event, context):
             "body": json.dumps({"error": str(e)})
         }
 
-# Test locally
+# AWS Lambda entry point
 if __name__ == "__main__":
-    test_event = {"action": "list_tools"}
-    result = lambda_handler(test_event, None)
-    print(json.dumps(result, indent=2))
+    # This will only run in AWS Lambda environment
+    pass

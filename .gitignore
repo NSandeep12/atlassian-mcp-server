@@ -35,7 +35,6 @@ package/
 
 # Environment variables
 .env
-.env.local
 .env.production
 
 # IDE
